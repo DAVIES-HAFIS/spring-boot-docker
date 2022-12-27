@@ -7,5 +7,5 @@ FROM openjdk:8
 # WORKDIR $PROJECT_HOME
 # CMD ["java" ,"-jar","./spring-boot-mongo.jar"]
 EXPOSE 8080
-ADD target/devops-integration.jar devops-integration.jar
-ENTRYPOINT ["java","-jar","/devops-integration.jar"]
+ADD target/spring-boot-mongo-1.0.jar spring-boot-mongo-1.0.jar
+ENTRYPOINT ["java","-jar","/spring-boot-mongo-1.0.jar"]
